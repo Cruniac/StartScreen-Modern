@@ -123,3 +123,19 @@ h1 {
   color:#cdcdcd;
   background:none;
 }
+
+/* ==========================================================================
+   Header
+   ========================================================================== */
+
+nav {
+  width:100%;
+  border-bottom:1px solid #ccc;
+  background:#222;
+  margin: 0 auto 25px auto;
+}
+#navcontainer {
+  text-align: center;
+  width:70%
+  margin: 0 auto 0 auto;
+}

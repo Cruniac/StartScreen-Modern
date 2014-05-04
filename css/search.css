@@ -1,0 +1,17 @@
+#searchengine {
+  border: 1px solid #cdcdcd;
+  width:80%;
+  height:500px;
+  margin: 0 auto 25px auto;
+  line-height: 1;
+  overflow-y:scroll;
+  overflow-x:hidden;
+}
+
+::-webkit-scrollbar{
+  display:none;
+}
+
+scrollbar {
+  display:none;
+}
