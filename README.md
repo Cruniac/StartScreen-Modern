@@ -22,6 +22,6 @@ If you want to change them, then you can do so in the index.html file.
 * Google for providing their CSE Engine
 
 ##Todo
-* Use the CSE API instead of Google's Script to get better integration going.
+* [DONE] Use the CSE API instead of Google's Script to get better integration going.
 * Offer Duckduckgo alternative for searching the web.
 * Offer a Light version of the site that can be toggled on and off.
