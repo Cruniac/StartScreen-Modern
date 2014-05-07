@@ -9,6 +9,8 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/search.css">
         <link rel="stylesheet" href="css/main.css">
+        <script src="js/jquery-2.1.1.min.js"></script>
+        <script src="js/google-search.js"></script>
     </head>
     <body>
 
@@ -19,22 +21,14 @@
         </div>
       </nav>
 
-      <div id="searchengine">
-        <script>
-          (function() {
-            var cx = '005962480996055108906:wpdor7vf40g';
-            var gcse = document.createElement('script');
-            gcse.type = 'text/javascript';
-            gcse.async = true;
-            gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
-                '//www.google.com/cse/cse.js?cx=' + cx;
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(gcse, s);
-          })();
-        </script>
-        <gcse:search></gcse:search>
+
+      <div id="sbox-box">
+        <input type="" id="sbox-query" placeholder="Search Query...">
+        <button id="sbox-button" onclick="StartSearch()">Send</button>
       </div>
 
+      <div id="searchengine">
+      </div>
 
     </body>
 </html>

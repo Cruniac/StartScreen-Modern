@@ -4,14 +4,71 @@
   height:500px;
   margin: 0 auto 25px auto;
   line-height: 1;
-  overflow-y:scroll;
-  overflow-x:hidden;
+  overflow:hidden;
 }
 
-::-webkit-scrollbar{
-  display:none;
+/*
+==============================================
+Search engine search box classes
+==============================================
+*/
+
+#sbox-box {
+  margin:0 auto 20px auto;
+  width:517px;
+}
+#sbox-query {
+  padding:10px;
+  border: 1px solid #cdcdcd;
+  background:#222;
+  width:415px;
+  font-family: "Droid Sans";
+}
+#sbox-button {
+  border: 1px solid #cdcdcd;
+  background:#cdcdcd;
+  color:#222;
+  width:75px;
+  font-family: "Droid Sans Mono";
+}
+#sbox-button:hover {
+  background:#222;
+  color:#cdcdcd;
 }
 
-scrollbar {
-  display:none;
+/*
+==============================================
+Search engine results classes
+==============================================
+*/
+
+.sr-box {
+  width:90%;
+  border: 1px solid #cdcdcd;
+  margin:auto;
+  padding:5px;
+  font-family: "Droid Sans";
+  text-decoration:none;
+}
+.sr-link {
+  color:#cdcdcd;
+  text-decoration:none;
+}
+.sr-link:hover {
+  color:#cdcdcd;
+}
+.sr-link:active {
+  color:#cdcdcd;
+}
+.sr-link:visited {
+  color:#cdcdcd;
+}
+
+
+.sr-title {
+  width:90%;
+  margin:20px auto 10px auto;
+  text-decoration:none;
+  font-size:1.5em;
+  font-family: "Droid Sans";
 }
