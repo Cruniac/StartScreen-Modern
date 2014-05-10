@@ -15,7 +15,7 @@ Search engine search box classes
 
 #sbox-box {
   margin:0 auto 20px auto;
-  width:517px;
+  width:596px;
 }
 #sbox-query {
   padding:10px;
@@ -71,4 +71,8 @@ Search engine results classes
   text-decoration:none;
   font-size:1.5em;
   font-family: "Droid Sans";
+}
+
+.des-link {
+  color:#fff;
 }
