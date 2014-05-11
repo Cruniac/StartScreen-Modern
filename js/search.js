@@ -48,8 +48,8 @@ function Search(engine) {
 
 //Open New window with search engine and query defined.
 function SubmitSearch() {
-	string = window.document.getElementById("sbox-query").value;
-	window.location = currentEngine + string;
+	searchquery = window.document.getElementById("sbox-query").value;
+	window.location = currentEngine + encodeURIComponent(searchquery);
 }
 
 //When Enter is pressed, start searching
