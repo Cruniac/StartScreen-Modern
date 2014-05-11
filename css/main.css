@@ -139,3 +139,40 @@ nav {
   width:70%
   margin: 0 auto 0 auto;
 }
+
+/*
+==============================================
+Search engine search box classes
+==============================================
+*/
+
+#sbox-box {
+  margin: 25px auto 10px auto;
+  width:70%;
+}
+#sbox-btn-box {
+  margin:auto;
+  width:70%;
+  text-align: center;
+}
+
+#sbox-query {
+  padding:10px;
+  border: 1px solid #cdcdcd;
+  background:#222;
+  width:100%;
+  font-family: "Droid Sans";
+}
+.sbox-button {
+  background:#cdcdcd;
+  color:#222;
+  min-width:75px;
+  font-family: "Droid Sans Mono";
+  text-decoration:none;
+  padding: 9px;
+  line-height: 3em;
+}
+.sbox-button:hover {
+  color:#cdcdcd;
+  background:none;
+}

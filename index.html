@@ -8,15 +8,23 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
+        <script src="js/jquery-2.1.1.min.js"></script>
+        <script src="js/search.js"></script>
     </head>
     <body>
 
-        <nav>
-          <div id="navcontainer">
-            <a href="index.html" class="link">Main</a>
-            <a href="search.html" class="link">Search</a>
-          </div>
-        </nav>
+        <div id="sbox-box">
+          <input type="" id="sbox-query" onkeydown="onReturnPress();" placeholder="Search Query...">
+        </div>
+        <div id="sbox-btn-box">
+          <a href="#" class="sbox-button" onclick="Search('google')">Google</a>
+          <a href="#" class="sbox-button" onclick="Search('ddg')">DDG</a>
+          <a href="#" class="sbox-button" onclick="Search('ddgn')">DDGN</a>
+          <a href="#" class="sbox-button" onclick="Search('bing')">Bing</a>
+          <a href="#" class="sbox-button" onclick="Search('startpage')">StartPage</a>
+          <a href="#" class="sbox-button" onclick="Search('wolfram')">Wolfram</a>
+        </div>
+
 
         <h1>StartScreen</h1>
         <div class="container">
