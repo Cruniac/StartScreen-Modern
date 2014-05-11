@@ -54,9 +54,10 @@ function SubmitSearch() {
 
 //When Enter is pressed, start searching
 function onReturnPress(){
-	$("#sbox-query").keyup(function(event){
+	searchbar = window.document.getElementById('sbox-query');
+	searchbar.onkeyup = function(event) {
 		if(event.keyCode == 13){
 			SubmitSearch();
 		}
-	});
+	}
 }
