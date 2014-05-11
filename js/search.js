@@ -54,9 +54,7 @@ function SubmitSearch() {
 
 //When Enter is pressed, start searching
 function onReturnPress(){
-	console.log('Search Event');
 	$("#sbox-query").keyup(function(event){
-		console.log(event.keyCode);
 		if(event.keyCode == 13){
 			SubmitSearch();
 		}
