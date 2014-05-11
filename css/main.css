@@ -36,12 +36,12 @@ body {
  */
 
 ::-moz-selection {
-    background: #b3d4fc;
+    background: #7600CA;
     text-shadow: none;
 }
 
 ::selection {
-    background: #b3d4fc;
+    background: #7600CA;
     text-shadow: none;
 }
 
@@ -185,7 +185,6 @@ Search engine search box classes
 	height:400px;
 	margin:10px auto;
 	border:1px solid #cdcdcd;
-
 	text-align: center;
 }
 
