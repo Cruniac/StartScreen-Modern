@@ -19,6 +19,7 @@ var DDGN = 'https://next.duckduckgo.com/?q=';
 var Bing = 'https://www.bing.com/search?q=';
 var StartPage = 'https://startpage.com/do/search?language=english&cat=web&query=';
 var Wolfram = 'https://www.wolframalpha.com/input/?i=';
+var Wikipedia = 'https://wikipedia.org/wiki/Special:Search?search=';
 
 var currentEngine = Google;
 
@@ -42,6 +43,9 @@ function Search(engine) {
 		case 'wolfram':
 			currentEngine = Wolfram;
 			break;
+    case 'wikipedia':
+      currentEngine = Wikipedia;
+      break;
 	}
 	SubmitSearch();
 }
