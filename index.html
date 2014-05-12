@@ -8,22 +8,44 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
-        <script src="js/jquery-2.1.1.min.js"></script>
+        <script src="js/jquery.js"></script>
         <script src="js/search.js"></script>
+        <script src="js/categories.js"></script>
     </head>
     <body>
 
+    		<div id="toggle-se-box">
+    			<a href="#" class="search-category toggle-mid" onclick="ChangeCategory('Web')">Web</a>
+    			<a href="#" class="search-category toggle-mid" onclick="ChangeCategory('Images')">Images</a>
+    			<a href="#" class="search-category toggle-mid" onclick="ChangeCategory('Videos')">Videos</a>
+    			<a href="#" class="search-category toggle-mid" onclick="ChangeCategory('Maps')">Maps</a>
+    		</div>
+
         <div id="sbox-box">
-          <input type="" id="sbox-query" onkeydown="onReturnPress();" placeholder="Search Query...">
+          <input type="" id="sbox-query" onkeydown="onReturnPress()" placeholder="Search Query...">
         </div>
-        <div id="sbox-btn-box">
+        <div class="sbox-btn-box" id="web-box">
           <a href="#" class="sbox-button" onclick="Search('google')">Google</a>
-          <a href="#" class="sbox-button" onclick="Search('ddg')">DDG</a>
-          <a href="#" class="sbox-button" onclick="Search('ddgn')">DDGN</a>
+          <a href="#" class="sbox-button" onclick="Search('ddg')">DuckDuckGo</a>
+          <a href="#" class="sbox-button" onclick="Search('ddgn')">DuckDuckGo Next</a>
           <a href="#" class="sbox-button" onclick="Search('bing')">Bing</a>
           <a href="#" class="sbox-button" onclick="Search('startpage')">StartPage</a>
           <a href="#" class="sbox-button" onclick="Search('wolfram')">Wolfram</a>
           <a href="#" class="sbox-button" onclick="Search('wikipedia')">Wikipedia</a>
+        </div>
+        <div class="sbox-btn-box" id="images-box">
+          <a href="#" class="sbox-button" onclick="Search('google-im')">Google Images</a>
+          <a href="#" class="sbox-button" onclick="Search('bing-im')">Bing Images</a>
+        </div>
+        <div class="sbox-btn-box" id="videos-box">
+          <a href="#" class="sbox-button" onclick="Search('youtube')">Youtube</a>
+          <a href="#" class="sbox-button" onclick="Search('dailymotion')">Dailymotion</a>
+          <a href="#" class="sbox-button" onclick="Search('vimeo')">Vimeo</a>
+          <a href="#" class="sbox-button" onclick="Search('bing-vid')">Bing Videos</a>
+        </div>
+        <div class="sbox-btn-box" id="maps-box">
+          <a href="#" class="sbox-button" onclick="Search('google-maps')">Google Maps</a>
+          <a href="#" class="sbox-button" onclick="Search('openstreetmaps')">OpenStreetMaps</a>
         </div>
 
         <div id="ms-box">

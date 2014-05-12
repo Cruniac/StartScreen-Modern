@@ -41,15 +41,15 @@ var Wikipedia = 'https://wikipedia.org/wiki/Special:Search?search=';
 var Youtube = 'https://youtube.com/results?search_query=';
 var Dailymotion = 'https://dailymotion.com/relevance/search/';
 var Vimeo = 'http://vimeo.com/search?q=';
-var Bing-vid = 'https://www.bing.com/videos/search?q=';
+var Bing_vid = 'https://www.bing.com/videos/search?q=';
 
 //Image Search Engines
-var Google-im = 'https://www.google.com/search?tbm=isch&q=';
-var Bing-im = 'https://bing.com/images/search?q=';
+var Google_im = 'https://www.google.com/search?tbm=isch&q=';
+var Bing_im = 'https://bing.com/images/search?q=';
 
 
 //Maps Search
-var Google-maps = 'https://www.google.com/maps/place/';
+var Google_maps = 'https://www.google.com/maps/place/';
 var OpenStreetMaps = 'https://openstreetmap.org/search?query=';
 
 
@@ -85,10 +85,10 @@ function Search(engine) {
 
     //Image Search Engines
     case 'google-im':
-      currentEngine = Google-im;
+      currentEngine = Google_im;
       break;
     case 'bing-im':
-      currentEngine = Bing-im;
+      currentEngine = Bing_im;
       break;
 
     //Video Search Engines
@@ -102,12 +102,12 @@ function Search(engine) {
       currentEngine = Vimeo;
       break;
     case 'bing-vid':
-      currentEngine = Bing-vid;
+      currentEngine = Bing_vid;
       break;
 
     //Map Search Engines
     case 'google-maps':
-      currentEngine = Google-maps;
+      currentEngine = Google_maps;
       break;
     case 'openstreetmaps':
       currentEngine = OpenStreetMaps;

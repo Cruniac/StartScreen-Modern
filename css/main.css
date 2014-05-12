@@ -147,10 +147,10 @@ Search engine search box classes
 */
 
 #sbox-box {
-  margin: 105px auto 10px auto;
+  margin: 10px auto 10px auto;
   width:60%;
 }
-#sbox-btn-box {
+.sbox-btn-box {
   margin:auto;
   width:60%;
   text-align: center;
@@ -192,10 +192,34 @@ Search engine search box classes
 	height:100%;
 	float:left;
 	opacity:0.8;
-  visibility: hidden;
+  visibility: visible;
   pointer-events:none;
 }
 
 .break {
 	height:25px;
+}
+
+/* Toogle Bars */
+#toggle-se-box {
+  margin:100px auto 0px auto;
+  width:60%;
+  text-align: center;
+}
+
+.toggle-mid {
+  background:#cdcdcd;
+  color:#222;
+  min-width:75px;
+  font-family: "Droid Sans Mono";
+  text-decoration:none;
+  padding: 9px;
+  line-height: 3em;
+}
+.toggle-mid:hover {
+  color:#cdcdcd;
+  background:none;
+}
+.active-toggle {
+	background: #7600CA;
 }
