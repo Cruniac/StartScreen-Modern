@@ -192,7 +192,7 @@ Search engine search box classes
 	height:100%;
 	float:left;
 	opacity:0.8;
-  visibility: visible;
+  visibility: hidden;
   pointer-events:none;
 }
 

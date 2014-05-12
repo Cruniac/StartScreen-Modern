@@ -1,5 +1,5 @@
-StartScreen
-===========
+##StartScreen
+
 
 This is a small personal Start Screen for a Webbrowser.
 
@@ -22,6 +22,8 @@ If you want to change them, then you can do so in the index.html file.
 * Google for providing their CSE Engine
 
 ##Todo
-* [DONE] Use the CSE API instead of Google's Script to get better integration going.
-* Offer Duckduckgo alternative for searching the web.
-* Offer a Light version of the site that can be toggled on and off.
+* Add Ability to search for images in various services
+* Add Ability to search for videos in various services
+* Ability to create categories for shortcuts
+* Create a Config file System
+* Support for hosting with NodeJS ?
