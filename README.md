@@ -1,29 +1,33 @@
 ##StartScreen
 
+StartScreen is a small Clientside page that aims to provide a quick and efficient way to search for
+content and place favourites.
 
-This is a small personal Start Screen for a Webbrowser.
+StartScreen is built with HTML5 + CSS3 and JavaScript. It does not need to run on a Server. While it
+doesen't need to run on a webserver, it can be run on one to make it available from everywhere.
 
-The Site is implemented in HTML, CSS and Javascript only, so it doesen't need to run on a Webserver.
+##Why
 
-This Start Screen supports the following features:
-* Does not need a Webserver
-* Favourites list with categories
-* Support for Google CSE (Custom Search Engine)
-
-This Startscreen is customised with some of the Websites I frequent.
-If you want to change them, then you can do so in the index.html file.
+Most browsers nowadays come with some kind of Start page or speeddial system. These are convenient, but
+not really all that customisable. StartScreen is a customisable Homepage that provides rich and useful
+functionality to guide the user to the content he desires.
 
 ##License
-* The content made by myself is licensed under the GPLv2 license.
-* Google and the Google CSE Engine are trademarks of Google Inc.
+* Jquery is licensed under the MIT License
+* The code of my project is licensed under the GPLv2 License
+
+For the usage of each search engine, please consult the Terms of Service of each Search engine.
+I do not claim any ownership on the content of the results of each search engine, nor am I responsible
+for the end of the world caused by the StartScreen project.
 
 ##Thanks to
 * Random poster on 4chan that gave me some inspiration on the site
-* Google for providing their CSE Engine
+* The companies that provide the search engines used in this project
 
 ##Todo
-* Add Ability to search for images in various services
-* Add Ability to search for videos in various services
+* [Done] Add Ability to search for images in various services
+* [Done] Add Ability to search for videos in various services
 * Ability to create categories for shortcuts
+* Theme System
 * Create a Config file System
-* Support for hosting with NodeJS ?
+* Support for hosting with NodeJS
