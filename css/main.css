@@ -106,7 +106,7 @@ h1 {
   font-family: "Droid Sans";
   letter-spacing:2px;
   color: #cdcdcd;
-  font-size: 2em;
+  font-size: 28px;
   margin: auto;
   text-align: center;
 }
@@ -192,6 +192,8 @@ Search engine search box classes
 	height:100%;
 	float:left;
 	opacity:0.8;
+  visibility: visible;
+  pointer-events:none;
 }
 
 .break {
