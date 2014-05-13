@@ -1,0 +1,165 @@
+/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+@font-face {
+  font-family: Droid Sans Mono;
+  src: url('../font/DroidSansMono.ttf');
+}
+@font-face {
+  font-family: Droid Sans;
+  src: url('../font/DroidSans.ttf');
+}
+
+html {
+  color: #cdcdcd;
+  font-size: 1em;
+  line-height: 2.4;
+}
+
+body {
+  background: #222;
+}
+
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #7600CA;
+    text-shadow: none;
+}
+
+::selection {
+    background: #7600CA;
+    text-shadow: none;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+.container {
+  margin: 0 auto 25px auto;
+  padding: 15px;
+  border: 1px solid #cdcdcd;
+  width:50%;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Droid Sans";
+  letter-spacing:2px;
+  color: #cdcdcd;
+  font-size: 28px;
+  margin: auto;
+  text-align: center;
+}
+
+.link {
+  font-family: "Droid Sans Mono";
+  padding: 5px;
+  background: #cdcdcd;
+  color: #222;
+  text-decoration:none;
+}
+
+.link:hover {
+  color:#cdcdcd;
+  background:none;
+}
+
+/*
+==============================================
+Search engine search box classes
+==============================================
+*/
+
+#sbox-box {
+  margin: 10px auto 10px auto;
+  width:60%;
+}
+.sbox-btn-box {
+  margin:auto;
+  width:60%;
+  text-align: center;
+}
+
+#sbox-query {
+	padding:10px;
+  border: 1px solid #cdcdcd;
+  background:#222;
+  width:100%;
+  font-family: "Droid Sans";
+  box-sizing: border-box;
+}
+.sbox-button {
+  background:#cdcdcd;
+  color:#222;
+  min-width:75px;
+  font-family: "Droid Sans Mono";
+  text-decoration:none;
+  padding: 9px;
+  line-height: 3em;
+}
+.sbox-button:hover {
+  color:#cdcdcd;
+  background:none;
+}
+
+/* Mascots */
+
+#ms-box {
+	width:60%;
+	height:400px;
+	margin:10px auto;
+	border:1px solid #cdcdcd;
+	text-align: center;
+}
+
+#mascot {
+	height:100%;
+	float:left;
+	opacity:0.8;
+  visibility: visible;
+  pointer-events:none;
+}
+
+.break {
+	height:25px;
+}
+
+/* Toogle Bars */
+#toggle-se-box {
+  margin:100px auto 0px auto;
+  width:60%;
+  text-align: center;
+}
+
+.toggle-mid {
+  background:#cdcdcd;
+  color:#222;
+  min-width:75px;
+  font-family: "Droid Sans Mono";
+  text-decoration:none;
+  padding: 9px;
+  line-height: 3em;
+}
+.toggle-mid:hover {
+  color:#cdcdcd;
+  background:none;
+}
+.active-toggle {
+	background: #7600CA;
+}
