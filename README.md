@@ -30,7 +30,7 @@ for the end of the world caused by the StartScreen project.
 ##Todo
 * [Done] Add Ability to search for images in various services
 * [Done] Add Ability to search for videos in various services
-* Ability to create categories for shortcuts
-* Theme System
+* [Removed] Ability to create categories for shortcuts
+* [Done] Theme System
 * Create a Config file System
 * Support for hosting with NodeJS

@@ -31,6 +31,7 @@
 | default category will be hidden, and the default category will receive
 | the active-toggle class to be marked as active and be highlighted.
 \----------------------------------------------------------------------------*/
+
 var current_category = '#web-box';
 var current_button = 'Web';
 
@@ -47,15 +48,13 @@ $(document).ready(function() {
 	});
 });
 
-
-
-
 /*----------------------------------------------------------------------------
 | This function works by being executed by a button using the onclick attribute
 | and passing the category you want to change to as an argument.
 | There are currently 4 possible values for the categories:
 | "Web", "Images", "Videos" and "Maps". More can be added.
 \----------------------------------------------------------------------------*/
+
 function ChangeCategory(category) {
 
 	$('.search-category').each(function(i, obj) {
