@@ -7,7 +7,7 @@ StartScreen is built with HTML5 + CSS3 and JavaScript. It does not need to run o
 doesen't need to run on a webserver, it can be run on one to make it available from everywhere.
 
 Screenshot:
-![alt text](http://i.imgur.com/UCthWcR.png "StartScreen Image")
+![alt text](http://i.imgur.com/1Ig60kN.png "StartScreen Image")
 
 ##Why
 
