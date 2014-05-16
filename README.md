@@ -1,18 +1,18 @@
 ##StartScreen
 
 StartScreen is a small Clientside page that aims to provide a quick and efficient way to search for
-content and place favourites.
+content and place favorites.
 
 StartScreen is built with HTML5 + CSS3 and JavaScript. It does not need to run on a Server. While it
 doesen't need to run on a webserver, it can be run on one to make it available from everywhere.
 
-Screenshot: 
+Screenshot:
 ![alt text](http://i.imgur.com/UCthWcR.png "StartScreen Image")
 
 ##Why
 
-Most browsers nowadays come with some kind of Start page or speeddial system. These are convenient, but
-not really all that customisable. StartScreen is a customisable Homepage that provides rich and useful
+Most browsers nowadays come with some kind of Start page or speed-dial system. These are convenient, but
+not really all that customisable. StartScreen is a customizable Homepage that provides rich and useful
 functionality to guide the user to the content he desires.
 
 ##License

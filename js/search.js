@@ -11,6 +11,10 @@
 | * StartPage
 | * Wolfram Alpha
 | * Wikipedia
+| * Youtube
+| * OpenStreetMaps
+| * Dailymotion
+| * Vimeo
 |----------------------------------------------------------------------------
 | License: GPLv2
 |
@@ -126,7 +130,7 @@ function SubmitSearch() {
 function onReturnPress(){
 	searchbar = window.document.getElementById('sbox-query');
 	searchbar.onkeyup = function(event) {
-		if(event.keyCode == 13){
+		if(event.keyCode == 13){ //keycode 13 = Enter
 			SubmitSearch();
 		}
 	}
