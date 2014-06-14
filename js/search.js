@@ -32,6 +32,11 @@
 | along with this program.  If not, see <http://www.gnu.org/licenses/>.
 \----------------------------------------------------------------------------*/
 
+$(document).ready(function() {
+	$('#sbox-query').focus();
+});
+
+
 //Search Engine Search URL's
 var Google = 'https://www.google.ch/#q=';
 var DDG = 'https://duckduckgo.com/?q=';
@@ -55,7 +60,6 @@ var Bing_im = 'https://bing.com/images/search?q=';
 //Maps Search
 var Google_maps = 'https://www.google.com/maps/place/';
 var OpenStreetMaps = 'https://openstreetmap.org/search?query=';
-
 
 var currentEngine = Google; //Search in Google by default.
 
