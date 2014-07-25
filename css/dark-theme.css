@@ -35,14 +35,7 @@ body {
  * Customize the background color to match your design.
  */
 
-::-moz-selection {
-    background: #7600CA;
-    text-shadow: none;
-}
 
-::selection {
-    background: #7600CA;
-    text-shadow: none;
 }
 
 
