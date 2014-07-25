@@ -35,7 +35,14 @@ body {
  * Customize the background color to match your design.
  */
 
+::-moz-selection {
+    background: #7600CA;
+    text-shadow: none;
+}
 
+::selection {
+    background: #7600CA;
+    text-shadow: none;
 }
 
 
@@ -154,5 +161,5 @@ Search engine search box classes
   background:none;
 }
 .active-toggle {
-	background: #7600CA;
+	background: #55435d;
 }
